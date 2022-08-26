@@ -21,7 +21,7 @@ html, body {
 }
 
 body * {
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -77,12 +77,13 @@ p, li, span, label, input, textarea  {
 }
 
 .intro-wrapper {
+    margin: 10px 0;
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -114,8 +115,12 @@ p, li, span, label, input, textarea  {
 
 #navigation li {
     display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#skills ul {
+    padding-inline-start: 0px;
 }
 
 .dots-wrapper {
@@ -153,8 +158,8 @@ p, li, span, label, input, textarea  {
 
 #profile_pic {
     display: block;
+    border-radius: 5px;
     margin: 0 auto;
-
     height: 200px;
     width: 200px;
     object-fit: cover;
@@ -271,6 +276,7 @@ p, li, span, label, input, textarea  {
 
 #social_img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .social-links {
@@ -289,6 +295,7 @@ p, li, span, label, input, textarea  {
 
 .post {
     border: 1px solid var(--borderColor);
+    border-radius: 3px;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -355,6 +362,19 @@ p, li, span, label, input, textarea  {
     background-color: var(--buttonColor);
     border: none;
     border-radius: 3px;
+}
+
+#submit-btn:hover {
+    color:black;
+}
+
+textarea {
+    resize: none;
+}
+
+#project-link {
+    color: var(--primaryText);
+    margin: 0 25px;
 }
 
 

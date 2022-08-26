@@ -1,4 +1,4 @@
-console.log('semper');
+document.getElementById('contact-form').reset();
 
 let theme = localStorage.getItem('theme'); 
 
