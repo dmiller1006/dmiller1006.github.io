@@ -119,8 +119,21 @@ p, li, span, label, input, textarea  {
     margin-left: 15px;
 }
 
+#skills {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+
 #skills ul {
+    flex: 1;
+    max-width: 300px;
     padding-inline-start: 0px;
+}
+
+#skills li {
+    list-style-type: circle;
 }
 
 .dots-wrapper {
